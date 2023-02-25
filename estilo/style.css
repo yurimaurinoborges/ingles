@@ -54,7 +54,7 @@ section#img01{
 section#img01 > h1{
     text-align: center;
     text-shadow: 2px 2px 2px white;
-
+    padding-bottom: 10px;
 }
 
 section#img01 > p {
@@ -75,16 +75,38 @@ section#des > a > img{
     padding: 10px;
 }
 
+section#des > a > img:hover{
+    max-width: 300px;
+    max-height: 200px;
+    transition: 0.2s;
+}
+
+section#normal > p{
+    padding: 10px;
+    text-indent: 10px;
+    line-height: 25px;
+}
+
+section#normal > h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
 section#img02{
     background-image: url('../imagens/casal.jpg');
     background-size: cover;
     background-position: top center;
     box-shadow: inset 2px 2px 3px black;
+    padding-top: 10px;
+    background-attachment: fixed;
 }
 
 section#img02 > h1{
     text-align: center;
     text-shadow: 2px 2px 2px white;
+    padding-bottom: 10px;
 }
 
 section#img02 > p {
