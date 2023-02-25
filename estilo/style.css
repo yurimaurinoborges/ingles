@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #080061;
+    --cor2: #8981E6;
+    --cor3: #1300E0;
+    --cor4: #130C61;
+    --cor5: #0E00AD;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+header{
+    background-image: linear-gradient(to right, var(--cor3),  var(--cor2));
+    
+}
+
+header > h1{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+
+section{
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+}
+
+section#img01{
+    background-image: url('../imagens/estrada-reta-no-meio-do-deserto-com-montanhas-magnificas-e-o-por-do-sol_181624-37698.avif');
+    background-size: cover;
+    background-position: center center;
+    box-shadow:inset 2px 2px 3px rgba(0, 0, 0, 0.727);
+    background-attachment: fixed;
+}
+
+section#img01 > h1{
+    text-align: center;
+    
+}
+
+section#img01 > p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.493);
+    max-width: 180px;
+    padding: 10px;
+    margin: right;
+}
+
+section#des > a > img{
+    max-height: 120px;
+    max-width: 200px;
+    padding: 10px;
+}
