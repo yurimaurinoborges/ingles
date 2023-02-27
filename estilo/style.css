@@ -65,7 +65,7 @@ section#img01 > p {
     margin: right;
 }
 
-section#des{
+section#des {
     background-color: #8981E6;
 }
 
@@ -74,12 +74,6 @@ section#des > a > img{
     max-width: 200px;
     padding: 10px;
     box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.426);
-}
-
-section#des > a > img:hover{
-    max-width: 300px;
-    max-height: 200px;
-    transform: translate(1s);
 }
 
 section#normal > p{
