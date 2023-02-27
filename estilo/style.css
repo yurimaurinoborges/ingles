@@ -73,21 +73,23 @@ section#des > a > img{
     max-height: 120px;
     max-width: 200px;
     padding: 10px;
+    box-shadow:  1px 1px 2px rgba(0, 0, 0, 0.426);
 }
 
 section#des > a > img:hover{
     max-width: 300px;
     max-height: 200px;
-    transition: 0.2s;
+    transform: translate(1s);
 }
 
 section#normal > p{
+    text-align: justify;
     padding: 10px;
     text-indent: 10px;
     line-height: 25px;
 }
 
-section#normal > h1{
+section#normal > h2{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -95,22 +97,28 @@ section#normal > h1{
 }
 
 section#img02{
-    background-image: url('../imagens/casal.jpg');
+    background-image: url('../imagens/Nissan-Compact-Sedan.jpg');
     background-size: cover;
-    background-position: top center;
-    box-shadow: inset 2px 2px 3px black;
-    padding-top: 10px;
-    background-attachment: fixed;
+    background-position: center ;
 }
 
-section#img02 > h1{
+section#img02 > h2{
+    padding-top: 10px;
     text-align: center;
-    text-shadow: 2px 2px 2px white;
     padding-bottom: 10px;
+    text-shadow: 2px 2px 3px white;
 }
 
 section#img02 > p {
-    background-color: rgba(255, 255, 255, 0.597);
-    max-width: 180px;
+    text-align: justify;
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 0.533);
     padding: 10px;
+    text-indent: 10px;
+}
+
+footer{
+    font-size:1.4em;
+    text-align: center;
+    font-weight: bolder;
 }
